@@ -23,7 +23,7 @@ setInterval(changeRole, 2500);
     <h1 className="home__title"> SAI TEJA GAJULA
     </h1>
     <h3 className="home__subtitle"><span id="role">Frontend Engineer</span></h3>
-    <p className="home__description">I'm a passionate Computer Science Graduate based in California.</p>
+    <p className="home__description">I'm a passionate Computer Science Graduate from Missouri</p>
 
     <a href="#contact" className="button button--flex"> Say Hello
     <svg
