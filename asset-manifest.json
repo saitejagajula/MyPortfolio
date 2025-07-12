@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55648001.css",
+    "main.js": "/static/js/main.862193a8.js",
+    "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
+    "static/media/SAITEJARESUME.pdf": "/static/media/SAITEJARESUME.7fa3db5385f379cd44c0.pdf",
+    "static/media/saiteja.jpg": "/static/media/saiteja.0e8ffca37d1d7cba19ee.jpg",
+    "index.html": "/index.html",
+    "main.55648001.css.map": "/static/css/main.55648001.css.map",
+    "main.862193a8.js.map": "/static/js/main.862193a8.js.map",
+    "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55648001.css",
+    "static/js/main.862193a8.js"
+  ]
+}
