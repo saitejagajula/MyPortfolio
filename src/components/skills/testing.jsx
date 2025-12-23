@@ -1,38 +1,27 @@
 import React from "react";
 
-const Tools = () => {
+const Testing = () => {
   return (
     <div className="skills__content">
-    <h3 className="skills__title">Tools</h3>
+    <h3 className="skills__title">Testing</h3>
     <div className="skills__box">
       <div className="skills__group">
 
-        <div className="skills__data">
+      <div className="skills__data">
         <i class='bx bxs-badge-check' ></i>
 
         <div>
-          <h3 className="skills__name">Git & Github</h3>
+          <h3 className="skills__name">Jest</h3>
           <span className="skills__level">Advanced</span>
         </div>
         </div>
 
-        
         <div className="skills__data">
         <i class='bx bxs-badge-check' ></i>
 
         <div>
-          <h3 className="skills__name">Npm</h3>
-          <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-
-
-        <div className="skills__data">
-        <i class='bx bxs-badge-check' ></i>
-
-        <div>
-          <h3 className="skills__name">Vite</h3>
-          <span className="skills__level">Intermediate</span>
+          <h3 className="skills__name">React Testing Library </h3>
+          <span className="skills__level">Advanced</span>
         </div>
         </div>
 
@@ -40,7 +29,7 @@ const Tools = () => {
         <i class='bx bxs-badge-check' ></i>
 
         <div>
-          <h3 className="skills__name">Webpack</h3>
+          <h3 className="skills__name">Cypress</h3>
           <span className="skills__level">Intermediate</span>
         </div>
         </div>
@@ -49,15 +38,25 @@ const Tools = () => {
         <i class='bx bxs-badge-check' ></i>
 
         <div>
-          <h3 className="skills__name">Data Modelling & Warehousing</h3>
+          <h3 className="skills__name">Unit Testing</h3>
           <span className="skills__level">Intermediate</span>
         </div>
         </div>
 
+        <div className="skills__data">
+        <i class='bx bxs-badge-check' ></i>
+
+        <div>
+          <h3 className="skills__name">Integration Testing</h3>
+          <span className="skills__level">Basic</span>
+        </div>
+        </div>
+
+       
       </div>
     </div>
   </div>
   )
 }
 
-export default Tools
+export default Testing

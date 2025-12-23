@@ -4,7 +4,7 @@ import AboutImg from "../../assets/saiteja.jpg";
 
 
 import Info from "./Info";
-import resume from '../../assets/SAITEJARESUME.pdf';
+import resume from '../../assets/SAITEJA_GAJULA_RESUME.pdf';
 
 
 const About = () => {
@@ -17,19 +17,7 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img"></img>
         <div className="about__data">
           <Info />
-                      <p>I'm a Frontend Developer with 3 years of 
-                        professional experience, skilled in building responsive
-                         and scalable web applications using HTML5, CSS3, JavaScript 
-                         (ES6+), and React.js. I specialize in component-driven 
-                         architecture, leveraging React Hooks for efficient state and 
-                         
-                         lifecycle management, and Redux Toolkit for global state control.
-                          With expertise in integrating RESTful APIs via Fetch or Axios, 
-                          I focus on performance optimization using lazy loading, memoization,
-                           and modular design patterns. I follow Agile development practices,
-                            utilize Git for version control, and implement CI/CD pipelines for streamlined deployments. My strong emphasis on mobile-first design with 
-                        Bootstrap ensures seamless cross-device user experiences.
-</p>
+                      <p>I’m a Software Engineer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, TypeScript, and JavaScript. I specialize in frontend architecture, component-driven development, and state management using Redux and the Context API, with strong experience in server-side rendering (SSR) and performance optimization. I’ve integrated REST and GraphQL APIs using Node.js and Express, optimized caching and rendering workflows, and improved application responsiveness through modular design and efficient data handling. Experienced in Agile environments, I work closely with cross-functional teams and leverage Git, CI/CD pipelines, Docker, and cloud platforms like AWS and Azure to deliver reliable, production-ready solutions focused on user experience and scalability.</p>
           <a target="_blank" rel="noopener noreferrer"  href={resume} className="button button--flex">View CV
           <svg
                 class="button__icon"

@@ -4,6 +4,7 @@ import Languages from "./Languages";
 import Databases from "./Databases";
 import Frameworks from "./Frameworks";
 import Tools from "./Tools";
+import Testing from "./testing";
 
 const Skills = () => {
   return (
@@ -14,6 +15,7 @@ const Skills = () => {
         <Languages />
         <Databases />
         <Frameworks />
+        <Testing/>
         <Tools />
       </div>
     </section>

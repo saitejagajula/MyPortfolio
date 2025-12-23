@@ -54,24 +54,49 @@ const Experience = () => {
 
   const TeachingAssistantContent = () => (
     <div>
-      <h3>Frontend Developer</h3>
-      <p className="subtitle-location">HCL TECL (December 2021- July 2023)</p>
+      <h3>Full Stack Software Engineer  </h3>
+      <p className="subtitle-location">ACCENTURE (June 2021- July 2023)</p>
       <br/>
-      <p>Skills gained:Html,CSS,JS,Bootstrap,React.js, React Hooks, Context API, Redux Toolkit </p>
+      <p>React, Next.js, TypeScript, JavaScript (ES6+), 
+    HTML5, CSS3, Redux, Context API, REST APIs, GraphQL, Node.js, Express, Docker, AWS
+ </p>
       <br/>
       <h4>Responsibilities:</h4>
       <br/>
       <ul className="custom-bullets">
         <li>Developed web and mobile-based applications using React and React Native with JavaScript (ES6+) and JSX syntax.</li>
-<li>Responsible to style, look and feel of the web page with SASS that extends CSS with dynamic behavior such as variables, mixins, operations, and functions.</li>
-<li>Took ownership of building scalable React 18+ components using functional patterns, React Router, Hooks, and Context API for managing global state.</li>
-<li>Designed and implemented Formik + Yup-powered form modules with complex validation for scheduling, registration, and feedback workflows.</li>
-<li>Built modular UI components using Material-UI and SCSS modules to maintain a consistent design language across modules.</li>
-<li>Used Redux Toolkit for state management and React Query for optimized API caching and background updates in patient dashboards.</li>
-<li>Integrated RESTful APIs to fetch lab test reports, appointment details, and alerts in real time using Axios with token-based authentication.</li>
-<li>Developed interactive visualizations and real-time health trend charts using Chart.js and custom SVG components.</li>
-<li>Enhanced accessibility and performance by implementing semantic HTML, ARIA tags, keyboard navigation, and lazy loading techniques.</li>
-<li>Improved UI performance with React.memo, dynamic imports, and Lighthouse-based performance optimizations.</li>
+<li>
+      Built high-performance, scalable web applications using React, Next.js, and
+      TypeScript, delivering responsive and user-focused interfaces.
+    </li>
+    <li>
+      Developed reusable, component-driven UI systems using functional components,
+      React Hooks, Context API, and Redux for predictable state management.
+    </li>
+    <li>
+      Implemented server-side rendering (SSR) and optimized hydration workflows,
+      improving initial load performance and SEO.
+    </li>
+    <li>
+      Integrated REST and GraphQL APIs using Node.js and Express, reducing data
+      latency and improving real-time responsiveness.
+    </li>
+    <li>
+      Optimized frontend performance using lazy loading, memoization, caching
+      strategies, and modular architecture patterns.
+    </li>
+    <li>
+      Collaborated with UX, backend, QA, and product teams in Agile environments to
+      deliver features with high sprint predictability.
+    </li>
+    <li>
+      Implemented CI/CD pipelines using GitHub and Docker, improving deployment
+      speed and release reliability.
+    </li>
+    <li>
+      Improved code quality through unit and integration testing, increasing test
+      coverage and reducing post-release defects.
+    </li>
 </ul>
     </div>
   )
@@ -79,21 +104,42 @@ const Experience = () => {
   const AnalystContent = () => (
     <div>
       <h3>Software Developer</h3>
-      <p className="subtitle-location">HCl Tech ( June 2020 – November 2021)</p>
+      <p className="subtitle-location">HCl Tech ( May 2019 – June 2021)</p>
       <br/>
-      <p>Skills gained:HTML,CSS,Bootstrap,Javascript,Git,GitHub,React.js </p>
+      <p> React, JavaScript (ES6+), HTML5, CSS3, Node.js,
+    Express, REST APIs, SQL, Git, CI/CD, Responsive Design </p>
       <br/>
       <h4>Key Responsibilities:</h4>
       <br/>
       <ul className="custom-bullets">
-        <li>Participated in Waterfall methodology with structured milestones, supporting analysis, UI prototyping, and basic testing.</li>
-<li>Built simple web pages using HTML, CSS, JavaScript, and jQuery for appointment booking features.</li>
-<li>Implemented client-side logic using AJAX and handled form submissions with Java Servlets.</li>
-<li>Worked on integrating SOAP web services with JAX-WS to fetch lab reports from legacy systems.</li>
-<li>Handled XML for SOAP message structure and reading application configurations.</li>
-<li>Assisted in writing simple SQL queries in PostgreSQL to support appointment and patient data retrieval.</li>
-<li>Supported backend test cases using JUnit and Mockito under guidance.</li>
-<li>Used Git and GitHub for version control, managing feature branches and participating in code reviews.</li>
+        <li>
+      Developed responsive and accessible UI components using React and JavaScript,
+      improving usability and cross-browser compatibility.
+    </li>
+    <li>
+      Built and integrated backend services and REST APIs using Node.js and Express
+      to support frontend workflows.
+    </li>
+    <li>
+      Refactored legacy UI codebases into modular, component-based architectures,
+      reducing technical debt and improving maintainability.
+    </li>
+    <li>
+      Optimized SQL queries and API response flows, improving page responsiveness
+      for high-traffic modules.
+    </li>
+    <li>
+      Ensured accessibility compliance using semantic HTML and best practices for
+      keyboard navigation and screen readers.
+    </li>
+    <li>
+      Collaborated closely with product managers and QA teams to deliver features
+      on schedule with reduced production issues.
+    </li>
+    <li>
+      Used Git for version control and contributed to CI/CD workflows to support
+      stable and consistent releases.
+    </li>
 
        
       </ul>
@@ -182,12 +228,12 @@ const Experience = () => {
           >
             <div className="qualification__data">
               <div onClick={() => openModal(<TeachingAssistantContent />)}>
-                <h3 className="qualification__title">Frontend Developer</h3>
+                <h3 className="qualification__title">Full Stack Software Engineer </h3>
                 <span className="qualification__subtitle">
-                HCL Tech  Client:Quest Diagnostics
+                   Accenture
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> December 2021- July 2023
+                  <i className="uil uil-calendar-alt"></i> June 2021 – July 2023
                 </div>
               </div>
               <div>
@@ -206,7 +252,7 @@ const Experience = () => {
                 <h3 className="qualification__title">Software Developer</h3>
                 <span className="qualification__subtitle">HCL Tech</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> June 2020 – November 2021
+                  <i className="uil uil-calendar-alt"></i> May 2019 – June 2021
                 </div>
               </div>
             </div>
