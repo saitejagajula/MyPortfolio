@@ -1,7 +1,7 @@
 import React from "react";
 
 const Data = () => {
-  const roles = [ "Frontend Developer", "Software Engineer"];
+  const roles = [ "Full Stack Software Engineer","Frontend Developer", "Software Engineer"];
 let currentRole = 0;
 
 function changeRole() {
@@ -22,7 +22,7 @@ setInterval(changeRole, 2500);
    <div className="home__data">
     <h1 className="home__title"> SAI TEJA GAJULA
     </h1>
-    <h3 className="home__subtitle"><span id="role">Frontend Engineer</span></h3>
+    <h3 className="home__subtitle"><span id="role">Full Stack Software Engineer</span></h3>
     <p className="home__description">I'm a passionate Computer Science Graduate from Missouri</p>
 
     <a href="#contact" className="button button--flex"> Say Hello

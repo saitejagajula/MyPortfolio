@@ -5,6 +5,7 @@ import Databases from "./Databases";
 import Frameworks from "./Frameworks";
 import Tools from "./Tools";
 import Testing from "./testing";
+import Cloud from "./Cloud";
 
 const Skills = () => {
   return (
@@ -15,6 +16,7 @@ const Skills = () => {
         <Languages />
         <Databases />
         <Frameworks />
+        <Cloud/>
         <Testing/>
         <Tools />
       </div>
