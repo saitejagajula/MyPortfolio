@@ -4,7 +4,7 @@ import AboutImg from "../../assets/saiteja.jpg";
 
 
 import Info from "./Info";
-import resume from '../../assets/SAITEJA_GAJULA_RESUME.pdf';
+import resume from '../../assets/SAI TEJA GAJULA - Full Stack Developer .pdf';
 
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img"></img>
         <div className="about__data">
           <Info />
-                      <p>I’m a Software Engineer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, TypeScript, and JavaScript. I specialize in frontend architecture, component-driven development, and state management using Redux and the Context API, with strong experience in server-side rendering (SSR) and performance optimization. I’ve integrated REST and GraphQL APIs using Node.js and Express, optimized caching and rendering workflows, and improved application responsiveness through modular design and efficient data handling. Experienced in Agile environments, I work closely with cross-functional teams and leverage Git, CI/CD pipelines, Docker, and cloud platforms like AWS and Azure to deliver reliable, production-ready solutions focused on user experience and scalability.</p>
+                      <p>I’m a Software Engineer with 4+ years of experience building scalable, high-performance web and cloud applications using React, Next.js, TypeScript, and JavaScript, with a strong focus on frontend architecture, component-driven development, state management, and performance optimization. I’ve designed and integrated REST and GraphQL APIs using Node.js, Express, and Python backends, contributing to modular, secure, and high-availability systems that support real-time data workflows. Experienced in Agile environments, I collaborate closely with cross-functional teams and leverage Git, CI/CD pipelines, Docker, and cloud platforms such as AWS and Azure to deliver reliable, production-ready solutions that prioritize scalability, maintainability, and user experience.</p>
           <a target="_blank" rel="noopener noreferrer"  href={resume} className="button button--flex">View CV
           <svg
                 class="button__icon"

@@ -70,9 +70,10 @@ const Contact = () => {
               <i className="bx bxl-gmail contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">gajulasaiteja27@gmail.com</span>
+              <span className="contact__card-data">saitejagajula693@gmail.com</span>
 
-              <a href="mailto:gajulasaiteja27@gmail.com" className="contact__button">Write me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+              <a href="mailto:
+              gajulasaiteja27@gmail.com" className="contact__button">Write me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
             <div className="contact__card">
@@ -88,7 +89,7 @@ const Contact = () => {
               <i className="bx bxs-phone-call contact__card-icon"></i>
 
               <h3 className="contact__card-title">Call</h3>
-              <span className="contact__card-data">+1 (913) 238-7841</span>
+              <span className="contact__card-data">+1 (913) 624-3253 </span>
 
               <a href="tel:+19132387841" className="contact__button">Call me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>

@@ -37,8 +37,8 @@ const Languages = () => {
         <div className="skills__data">
         <i class='bx bxs-badge-check' ></i>
         <div>
-          <h3 className="skills__name">Python</h3>
-          <span className="skills__level">Intermediate</span>
+          <h3 className="skills__name">Python(Flask, Django, FastAPI)</h3>
+          <span className="skills__level">Advanced</span>
         </div>
         </div>
 

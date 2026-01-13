@@ -54,60 +54,50 @@ const Experience = () => {
 
   const TeachingAssistantContent = () => (
     <div>
-      <h3>Full Stack Software Engineer  </h3>
-      <p className="subtitle-location">ACCENTURE (June 2021- July 2023)</p>
+      <h3>Full Stack Software Developer  </h3>
+      <p className="subtitle-location">Intuit, Inc (01/2025 – Present)</p>
       <br/>
-      <p>React, Next.js, TypeScript, JavaScript (ES6+), 
-    HTML5, CSS3, Redux, Context API, REST APIs, GraphQL, Node.js, Express, Docker, AWS
+      <p>React, TypeScript, Python (FastAPI), microservices architecture, event-driven systems (Apache Kafka), PostgreSQL, cloud-native development on AWS, Docker and containerization, secure authentication (OAuth 2.0, OpenID Connect, AWS IAM), real-time financial systems, Generative AI and LLM API integration, scalable backend design, CI/CD and production deployments.
  </p>
       <br/>
       <h4>Responsibilities:</h4>
       <br/>
       <ul className="custom-bullets">
-        <li>Developed web and mobile-based applications using React and React Native with JavaScript (ES6+) and JSX syntax.</li>
+        <li>Designed and developed AI-driven small business financial management platform using React frontend, Python (FastAPI) backend, PostgreSQL, AWS,
+and Kafka, leveraging Generative AI and transformer LLMs for cash flow forecasting, invoice optimization, and product recommendations, increasing
+engagement 15%.</li>
 <li>
-      Built high-performance, scalable web applications using React, Next.js, and
-      TypeScript, delivering responsive and user-focused interfaces.
+      Built scalable Python microservices supporting billing, payroll, invoicing, and accounting dashboards, integrating with PostgreSQL and AWS services,
+reducing service errors by 10%, improving system reliability, for high performance for concurrent real-time financial transactions and analytics.
     </li>
     <li>
-      Developed reusable, component-driven UI systems using functional components,
-      React Hooks, Context API, and Redux for predictable state management.
+     Integrated Generative AI and transformer LLMs for transaction classification, expense prediction, personalized insights, and revenue forecasting,
+optimizing user decision-making and retention, while enabling predictive financial recommendations and smarter business financial management,
+boosting retention by 17%.
     </li>
     <li>
-      Implemented server-side rendering (SSR) and optimized hydration workflows,
-      improving initial load performance and SEO.
+     Implemented secure authentication and authorization using OAuth2, OpenID Connect, AWS IAM, and custom token services, strengthening identity
+management, reducing login failures by 8%, maintaining compliance with Intuit privacy and security standards, and enabling secure platform access.
     </li>
     <li>
-      Integrated REST and GraphQL APIs using Node.js and Express, reducing data
-      latency and improving real-time responsiveness.
+     Containerized React frontend and Python backend using Docker and AWS ECS, enabling auto-scaling, high availability, observability via CloudWatch
+and Splunk dashboards, improving platform reliability by 12%, supporting multi-region deployment, and ensuring operational efficiency and uptime.
     </li>
     <li>
-      Optimized frontend performance using lazy loading, memoization, caching
-      strategies, and modular architecture patterns.
+    Developed automated CI/CD pipelines in collaboration with DevOps using Spinnaker, AWS CodePipeline, Maven, Jenkins, SonarQube, JUnit, and Jest,
+handling deployments, zero-downtime weekly releases, improving code quality, team collaboration, and system scalability efficiently.
     </li>
-    <li>
-      Collaborated with UX, backend, QA, and product teams in Agile environments to
-      deliver features with high sprint predictability.
-    </li>
-    <li>
-      Implemented CI/CD pipelines using GitHub and Docker, improving deployment
-      speed and release reliability.
-    </li>
-    <li>
-      Improved code quality through unit and integration testing, increasing test
-      coverage and reducing post-release defects.
-    </li>
+   
 </ul>
     </div>
   )
 
   const AnalystContent = () => (
     <div>
-      <h3>Software Developer</h3>
-      <p className="subtitle-location">HCl Tech ( May 2019 – June 2021)</p>
+      <h3>Full Stack Software Developer</h3>
+      <p className="subtitle-location"> Zoho Corporation Pvt. Ltd ( June 2020 – Aug 2023)</p>
       <br/>
-      <p> React, JavaScript (ES6+), HTML5, CSS3, Node.js,
-    Express, REST APIs, SQL, Git, CI/CD, Responsive Design </p>
+      <p> JavaScript (ES6+), React, Redux, Node.js, Express.js, REST API design, role-based access control (RBAC), JWT authentication, MySQL and PostgreSQL, database optimization and query tuning, API performance optimization, unit and integration testing (Jest, Mocha), Dockerized services, SaaS application development. </p>
       <br/>
       <h4>Key Responsibilities:</h4>
       <br/>
@@ -228,12 +218,12 @@ const Experience = () => {
           >
             <div className="qualification__data">
               <div onClick={() => openModal(<TeachingAssistantContent />)}>
-                <h3 className="qualification__title">Full Stack Software Engineer </h3>
+                <h3 className="qualification__title">Full Stack Developer </h3>
                 <span className="qualification__subtitle">
-                   Accenture
+                  Intuit, Inc
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> June 2021 – July 2023
+                  <i className="uil uil-calendar-alt"></i> Jan 2025 – Present
                 </div>
               </div>
               <div>
@@ -249,10 +239,10 @@ const Experience = () => {
                 <span className="qualification__line"></span>
               </div>
               <div onClick={() => openModal(<AnalystContent />)}>
-                <h3 className="qualification__title">Software Developer</h3>
-                <span className="qualification__subtitle">HCL Tech</span>
+                <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">Zoho Corporation Pvt. Ltd</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> May 2019 – June 2021
+                  <i className="uil uil-calendar-alt"></i> June 2020 – Aug 2023 
                 </div>
               </div>
             </div>
