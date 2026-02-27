@@ -24,7 +24,7 @@ setInterval(changeRole, 2500);
     </h1>
     <h3 className="home__subtitle"><span id="role">Full Stack Software
        Engineer</span></h3>
-    <p className="home__description">I'm a passionate Computer Science Graduate from Missouri</p>
+    <p className="home__description">Software Engineer based in Phoenix, AZ — building full-stack apps & GenAI-powered platforms.</p>
 
     <a href="#contact" className="button button--flex"> Say Hello
     <svg

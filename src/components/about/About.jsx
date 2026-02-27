@@ -1,10 +1,9 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/saiteja.jpg";
-
+import ResumePDF from "../../assets/SaiTeja_Gajula_Resume.pdf";
 
 import Info from "./Info";
-import resume from '../../assets/SAI TEJA GAJULA - Full Stack Developer .pdf';
 
 
 const About = () => {
@@ -17,8 +16,13 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img"></img>
         <div className="about__data">
           <Info />
-                      <p>I’m a Software Engineer with 4+ years of experience building scalable, high-performance web and cloud applications using React, Next.js, TypeScript, and JavaScript, with a strong focus on frontend architecture, component-driven development, state management, and performance optimization. I’ve designed and integrated REST and GraphQL APIs using Node.js, Express, and Python backends, contributing to modular, secure, and high-availability systems that support real-time data workflows. Experienced in Agile environments, I collaborate closely with cross-functional teams and leverage Git, CI/CD pipelines, Docker, and cloud platforms such as AWS and Azure to deliver reliable, production-ready solutions that prioritize scalability, maintainability, and user experience.</p>
-          <a target="_blank" rel="noopener noreferrer"  href={resume} className="button button--flex">View CV
+                      <p>Software Engineer with 4+ years at Intuit and Zoho, building full-stack web applications and microservices using React.js, Python, Node.js, and AWS. Currently integrating GenAI (LangChain, GPT-4, RAG pipelines) into financial platforms serving 100K+ users. Experienced in API design, database optimization, CI/CD automation, and shipping reliable systems in Agile teams.</p>
+         <a
+  href={ResumePDF}
+  target="_blank"
+  rel="noreferrer"
+  className="button button--flex"
+>View CV
           <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
